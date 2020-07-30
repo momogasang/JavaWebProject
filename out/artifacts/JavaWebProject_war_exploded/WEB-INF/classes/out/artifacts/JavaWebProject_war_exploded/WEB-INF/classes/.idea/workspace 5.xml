@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaWebProject:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f39a5ad-48bd-42fd-8ef1-469758d7e453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/daddy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daddy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/JavaWebProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/artifacts/JavaWebProject_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/workspace 2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/dao/CollectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/dao/ProjectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/entity/Collect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/entity/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/entity/QCMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/filter/BrowserFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/filter/EncodingRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/service/CollectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/AddPicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/CollectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/CourtServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/DetailServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/IndexServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/MineCServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/MinePicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/NewServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/ProjectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/SearServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/SearchServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/UpLoadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/servlet/UpdatePicServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/utils/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/utils/DBUtil 2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/utils/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/utils/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/com/daddy/utils/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/daddy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/daddy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/JavaWebProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/artifacts/JavaWebProject_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/daddy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/daddy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/json-20180130.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/addPic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/comfortable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/court_travel_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/addPic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/jquery.mmenu.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/2222222.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/a_activ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/a_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/b_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_court_t.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_jing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_liu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fenging2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fengjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fengjing3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-leshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-lushan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/erwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fonter_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/li_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/li_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/links_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/monkey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/nav_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ne1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ne2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/pr1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/pr2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/s_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/s_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/syzz_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/top-erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ul_dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/x_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/xia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/xie_xian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/y_e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/y_e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/yan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.mmenu.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lg-fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lg-thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/mineC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/minePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/updatePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/json-20180130.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/addPic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/comfortable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/court_travel_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/addPic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/jquery.mmenu.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/2222222.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/a_activ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/a_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/b_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_court_t.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_jing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_liu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/banner_yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fenging2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fengjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fengjing3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable-leshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable-lushan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/comfortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/erwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_da2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/fonter_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/home_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/jing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/jing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/jing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/li_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/li_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/links_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/monkey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/nav_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/ne1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/ne2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/pr1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/pr2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/s_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/s_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/show_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/show_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/syzz_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/top-erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/tra_show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/tra_x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/tra_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/tra_x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/tra_x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/ul_dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/x_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/xia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/xie_xian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/y_e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/y_e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/yan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/images/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/jquery.mmenu.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/lg-fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/lg-thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/mineC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/minePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/out/artifacts/JavaWebProject_war_exploded/updatePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/json-20180130.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/addPic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/comfortable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/court_travel_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/addPic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/jquery.mmenu.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/2222222.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/a_activ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/a_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/b_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_court_t.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_jing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_liu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/banner_yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fenging2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fengjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-fengjing3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-leshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable-lushan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/comfortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/erwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fa_xiao3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/fonter_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/home_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/jing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/li_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/li_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/links_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/monkey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/nav_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ne1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ne2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/pr1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/pr2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/s_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/s_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/show_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/syzz_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/top-erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/tra_x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/ul_dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/x_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/xia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/xie_xian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/y_e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/y_e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/yan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/images/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.mmenu.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lg-fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lg-thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/mineC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/minePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/classes/web/updatePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/json-20180130.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/addPic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/comfortable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/court_travel_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/addPic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/jquery.mmenu.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/2222222.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/a_activ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/a_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/b_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_court_t.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_jing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_liu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/banner_yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fenging2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fengjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable-fengjing3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable-leshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable-lushan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/comfortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/erwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_da2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fa_xiao3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/fonter_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/home_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/jing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/jing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/jing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/li_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/li_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/links_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/monkey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/nav_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/ne1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/ne2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/pr1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/pr2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/s_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/s_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/show_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/show_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/syzz_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/top-erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/tra_show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/tra_x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/tra_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/tra_x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/tra_x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/ul_dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/x_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/xia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/xie_xian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/y_e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/y_e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/yan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/images/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/jquery.mmenu.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/lg-fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/lg-thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/mineC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/minePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaWebProject_war_exploded/updatePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/dao/CollectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/dao/ProjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/entity/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/entity/QCMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/filter/BrowserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/filter/EncodingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/AddPicServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/CollectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/CourtServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/DetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/MineCServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/MinePicServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/NewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/ProjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/SearServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/SearchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/UpLoadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/servlet/UpdatePicServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/utils/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/utils/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daddy/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-20180130.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addPic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comfortable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/court_travel_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/addPic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.mmenu.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/2222222.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/a_activ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/a_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/b_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_court_t.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_jing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_liu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/banner_yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable-fenging2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable-fengjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable-fengjing3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable-leshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable-lushan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/comfortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/contact_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/erwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_da2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_xiao1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_xiao2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fa_xiao3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fonter_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/home_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/li_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/li_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/links_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/monkey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/nav_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ne1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ne2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/pr1_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/pr2_com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/s_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/s_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/show_s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/show_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/syzz_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/top-erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tra_show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tra_x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tra_x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tra_x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tra_x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ul_dian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/x_1h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/xia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/xie_xian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/y_e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/y_e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.mmenu.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/lg-fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/lg-thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mineC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/minePic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updatePic.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1edUzsaBfFIzlrWOCjiWmeiCDlV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JavaWebProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaWebProject" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62278" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JavaWebProject:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f39a5ad-48bd-42fd-8ef1-469758d7e453" name="Default Changelist" comment="" />
+      <created>1594651228360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594651228360</updated>
+      <workItem from="1594651229741" duration="338000" />
+      <workItem from="1595821211190" duration="32000" />
+      <workItem from="1595821314027" duration="1797000" />
+      <workItem from="1595823236152" duration="508000" />
+      <workItem from="1595823757187" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="127" key="#Project_Structure" timestamp="1595823345131">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="319" y="127" key="#Project_Structure/0.23.1440.806@0.23.1440.806" timestamp="1595823345131" />
+    <state x="184" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595823682789">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1594651267359" />
+    <state x="184" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1595823682789" />
+    <state x="456" y="378" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1595823018769">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="456" y="378" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.23.1440.806@0.23.1440.806" timestamp="1595823018769" />
+    <state x="579" y="333" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1595823094247">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="579" y="333" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.23.1440.806@0.23.1440.806" timestamp="1595823094247" />
+    <state width="958" height="206" key="GridCell.Tab.0.bottom" timestamp="1595834125964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595834125964" />
+    <state width="958" height="206" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1595824098745" />
+    <state width="958" height="206" key="GridCell.Tab.0.center" timestamp="1595834125963">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595834125963" />
+    <state width="958" height="206" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1595824098744" />
+    <state width="958" height="206" key="GridCell.Tab.0.left" timestamp="1595834125962">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595834125962" />
+    <state width="958" height="206" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1595824098741" />
+    <state width="958" height="206" key="GridCell.Tab.0.right" timestamp="1595834125964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595834125964" />
+    <state width="958" height="206" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1595824098744" />
+    <state width="958" height="206" key="GridCell.Tab.1.bottom" timestamp="1595834125967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595834125967" />
+    <state width="958" height="206" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1595824098432" />
+    <state width="958" height="206" key="GridCell.Tab.1.center" timestamp="1595834125966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595834125966" />
+    <state width="958" height="206" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1595824098431" />
+    <state width="958" height="206" key="GridCell.Tab.1.left" timestamp="1595834125965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595834125965" />
+    <state width="958" height="206" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1595824098430" />
+    <state width="958" height="206" key="GridCell.Tab.1.right" timestamp="1595834125967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595834125967" />
+    <state width="958" height="206" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1595824098432" />
+    <state width="958" height="206" key="GridCell.Tab.2.bottom" timestamp="1595834125971">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595834125971" />
+    <state width="958" height="206" key="GridCell.Tab.2.bottom/0.23.1440.806@0.23.1440.806" timestamp="1595824098435" />
+    <state width="958" height="206" key="GridCell.Tab.2.center" timestamp="1595834125969">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1595834125969" />
+    <state width="958" height="206" key="GridCell.Tab.2.center/0.23.1440.806@0.23.1440.806" timestamp="1595824098434" />
+    <state width="958" height="206" key="GridCell.Tab.2.left" timestamp="1595834125968">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1595834125968" />
+    <state width="958" height="206" key="GridCell.Tab.2.left/0.23.1440.806@0.23.1440.806" timestamp="1595824098433" />
+    <state width="958" height="206" key="GridCell.Tab.2.right" timestamp="1595834125969">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="206" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1595834125969" />
+    <state width="958" height="206" key="GridCell.Tab.2.right/0.23.1440.806@0.23.1440.806" timestamp="1595824098434" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1595823550657">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1595823550657" />
+    <state x="376" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1595823758619">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="376" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1595823758619" />
+    <state x="114" y="21" key="new project wizard" timestamp="1594651745834">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="21" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1594651745834" />
+  </component>
+</project>
