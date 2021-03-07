@@ -77,7 +77,7 @@
             国家：<input style="margin-left: 45px" name="state" type="text" placeholder="请输入" required value="${pro.state}"><br>
             所属城市：<input style="margin-left: 15px;" type="text" name="city" placeholder="请输入" required value="${pro.city}"><br>
             分享内容：<textarea style="margin-left: 15px;" name="introduction" type="text" placeholder="请输入"
-                           required>${pro.introduction}</textarea>
+                           srequired>${pro.introduction}</textarea>
             <input style="margin-left: 15px;" type="text" name="img" id="img" required value="${pro.img}" hidden><br>
             <img id="preview" src="${pro.img}" alt="请上传图片">
             <button style="margin-left: 5%;margin-top: 20px;width:80px;height: 34px; border-radius: 17px;border:none;outline: none">

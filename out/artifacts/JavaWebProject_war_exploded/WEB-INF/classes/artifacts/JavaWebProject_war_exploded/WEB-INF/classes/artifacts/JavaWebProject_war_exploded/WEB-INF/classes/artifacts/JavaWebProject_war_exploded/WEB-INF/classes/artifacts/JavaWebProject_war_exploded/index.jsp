@@ -102,9 +102,9 @@ To change this template use File | Settings | File Templates.
             </div>
         </div>
     </div>
+    <%--            通过遍历从数据库拿出图片--%>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-<%--            通过遍历从数据库拿出图片--%>
             <c:forEach items="${requestScope.projects}" var="project">
                 <div class="swiper-slide wow bounceIn">
                     <a href="${pageContext.request.contextPath}/detail?id=${project.id}">

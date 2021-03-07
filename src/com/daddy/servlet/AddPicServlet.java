@@ -26,6 +26,7 @@ public class AddPicServlet extends HttpServlet {
         String img = req.getParameter("img");
         int heat = Integer.parseInt(req.getParameter("heat"));
         Project project = new Project(title,theme,author,introduction,heat,state,city,new Date(),img);
+//        判断图片上传
         if (projectService.insertPro(project)){
             Writer writer = resp.getWriter();
             writer.write("上传成功!");
